@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusCoworking</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="imagex/png" href="./images/LogoNexus.ico">
+</head>
+<body>
+<main>
+    <div id="inicio" class="menu" style="display: flex;">
+        <div style="padding: 10px">
+            <a href=""><img src="images/logo.svg" alt="logo"></a>
+        </div>
+        <div style="display: flex; margin-left: auto; width: 600px;justify-content: space-evenly">
+            <a href="index.html#inicio" class="menu_link">Início</a>
+            <a href="index.html#fot " class="menu_link">Contato</a>
+            <a href="" class="menu_link">Serviço</a>
+            <a href="" class="menu_link">Sobre nós</a>
+        </div>
+    </div>
+    <div class="formulario">
+        <div class="container">
+            <h2>Formulário de Contato</h2>
+            <form action="processar_formulario.php" method="post">
+                <label for="nome">Nome:</label>
+                <input class="custom-input" type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input class="custom-input" type="email" id="email" name="email" required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="geral">Geral</option>
+                    <option value="suporte">Suporte</option>
+                    <option value="vendas">Vendas</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>

@@ -242,6 +242,63 @@ e {
 
 }
 /*------------------------------------------------------------------------------------- footer*/
+/*------------------------------------------------------------------------------------- serviços*/
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.custom-input{
+    width: 98%;
+    /*background-color: #42A1F9;*/
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 25px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    height: 40px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: #14212A;
+}
+/*------------------------------------------------------------------------------------- serviços*/
+
 
 ::-webkit-scrollbar-track {
     background-color: var(--cor-darker-blue); /* Change the background color of the track */
