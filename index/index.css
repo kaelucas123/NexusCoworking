@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+
+:root {
+    --cor-white: #FFFF;
+    --cor-dark-blue: #14212A;
+    --cor-blue: #42A1F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    width: 98vw;
+    margin: auto;
+}
+
+h1 {
+    color: var(--cor-dark-blue);
+    font-size: 60px;
+}
+
+h2 {
+    color: var(--cor-blue);
+    font-size: 60px;
+}
+
+h3 {
+    color: var(--cor-blue);
+    font-size: 30px;
+}
+
+/*------------------------------------------------------------------------------------- Menu*/
+.menu {
+    width: 100%;
+    height: 80px;
+}
+
+.menu_link {
+    margin-top: auto;
+    color: var(--cor-dark-blue);
+    font-size: 35px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.menu_link:hover {
+    color: var(--cor-blue);
+}
+
+/*------------------------------------------------------------------------------------- Menu*/
+
+/*------------------------------------------------------------------------------------- presentation*/
+.presentation {
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+
+.welcome{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.welcome div img{
+    width: 100%;
+    margin-left: 2rem;
+}
+.cowork{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.start_button{
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--cor-blue);
+    border-radius: 5px;
+    border: none;
+    font-size: 28px;
+    color: var(--cor-white);
+    margin-left: 2rem;
+}
+
+/*------------------------------------------------------------------------------------- presentation*/
+
+/*------------------------------------------------------------------------------------- steps*/
+.steps {
+    width: 100%;
+    height: 800px;
+    background-color: var(--cor-blue);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    height: 100%;
+    min-width: 300px;
+    background-color: #3793e8;
+    transition: background-color 0.2s;
+}
+
+.card:hover {
+    background-color: var(--cor-white);
+}
+
+.card div {
+    color: var(--cor-white);
+    transition: color 0.3s;
+}
+
+.card:hover div div p {
+    color: var(--cor-dark-blue);
+}
+
+.card:hover div div p e {
+    color: var(--cor-blue);
+}
+
+e {
+    color: #FFFFFF;
+}
+
+/*------------------------------------------------------------------------------------- steps*/
+
+/*------------------------------------------------------------------------------------- location*/
+.location {
+    margin-top: 2rem;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.title {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100px;
+}
+
+.map_area {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*------------------------------------------------------------------------------------- location*/
+
+/*------------------------------------------------------------------------------------- feedback*/
+.feedback {
+    width: 100%;
+    height: auto;
+}
+
+.comment {
+    width: 100%;
+    height: 400px;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.coment_text {
+    background-color: var(--cor-blue);
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------- feedback*/
+
+/*------------------------------------------------------------------------------------- footer*/
+.footer {
+    width: 100%;
+    height: 800px;
+    background-color: #d91337;
+}
+
+/*------------------------------------------------------------------------------------- footer*/
+
+
+
+
+
+
+
+
