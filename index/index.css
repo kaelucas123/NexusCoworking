@@ -86,6 +86,10 @@ h3 {
     font-size: 28px;
     color: var(--cor-white);
     margin-left: 2rem;
+    cursor: pointer;
+}
+.start_button:hover{
+    background: #6bb5ff;
 }
 
 /*------------------------------------------------------------------------------------- presentation*/
